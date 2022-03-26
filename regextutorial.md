@@ -4,7 +4,7 @@ Regular expressions can be used to find certain patterns of characters within a 
 
 ## Summary
 
-This is the regex code that we will be anaylized today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+This is the regex code that we will be analyzed today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 
@@ -23,11 +23,11 @@ The anchors used to contain this regular expression are: `^` to start, and `$` t
 
 ### Quantifiers
 
-In this example, we used `+` to communicate there is another sequence to be matched as a greedy quantifier. We also used `{2,6}` as another greedy quantifer to specify the input should be a minimum of 2 characrtors to a maximum of 6 characters.
+In this example, we used `+` to communicate there is another sequence to be matched as a greedy quantifier. We also used `{2,6}` as another greedy quantifiers to specify the input should be a minimum of 2 characters to a maximum of 6 characters.
 
 ### Character Classes
 
-In this regular expression, the charactor class `/d` is used which in Javasctipt classifies the use of any digit from 0 to 9.
+In this regular expression, the character class `/d` is used which in Javascript classifies the use of any digit from 0 to 9.
 
 ### Grouping and Capturing
 
