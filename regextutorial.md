@@ -31,11 +31,11 @@ In this regular expression, the character class `/d` is used which in Javascript
 
 ### Grouping and Capturing
 
-There are three groups being captured in this example. Group #1 is the username of the e-mail account `[a-z0-9_\.-]`. The second group captures the domain name or e-mail service being used `[\da-z\.-]`. Lastly, the third group captures the domain extention (i.e .com or .net) `[a-z\.]{2,6}`
+There are three groups being captured in this example. Group #1 is the username of the e-mail account `[a-z0-9_\.-]`. The second group captures the domain name or e-mail service being used `[\da-z\.-]`. Lastly, the third group captures the domain extension (i.e .com or .net) `[a-z\.]{2,6}`
 
 ### Bracket Expressions
 
-Much like the groups in this example, there are also 3 bracket expressions. The information in the bracket expressions is opened and closed between brackets like this `[]`. This indentifies which information is allowed to be matched.
+Much like the groups in this example, there are also 3 bracket expressions. The information in the bracket expressions is opened and closed between brackets like this `[]`. This identifies which information is allowed to be matched.
 
 Bracket Expression #1: `[a-z0-9_\.-]` - includes case sensitive characters from a-z, numbers from 0-9 an underscore, periods and hyphens.
 
@@ -46,7 +46,7 @@ Bracket Expression #3: `[a-z\.]`      - includes case sensitive characters from 
 
 ### Greedy and Lazy Match
 
-In this example we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
+In this example we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it needs to go. If these quantifiers were lazy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
 
 ## Author
 
